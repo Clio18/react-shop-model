@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+
+### VS Code ###
+.vscode/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+package-lock.json
+
+
+
+
