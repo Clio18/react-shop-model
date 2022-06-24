@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Checkout.module.css";
 
+/* button type = "button" will not submitting the form */
 const Checkout = (props) => {
   return (
     <form>
@@ -20,6 +21,7 @@ const Checkout = (props) => {
         <lable htmlFor="city">City</lable>
         <input type="text" id = "city"/>
       </div>
+      <button type="button" onClick = {props.onCancel}>Cancel</button>
       <button>Confirm</button>
     </form>
   );
